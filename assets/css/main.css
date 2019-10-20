@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #485461;
+	background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 ol, ul {
@@ -83,8 +85,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
-		background-image: url("images/bg02.png");
+		background-color: #485461;
+		background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2066,14 +2068,14 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		background-color: #485461;
+		background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 		padding: 5em 0 4em 0;
 		text-align: center;
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #cccccc;
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
@@ -2102,7 +2104,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #cccccc;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2118,7 +2120,7 @@ input, select, textarea {
 
 				#nav > ul > li.current > a {
 					background: #d52349;
-					color: #fff !important;
+					color: #cccccc !important;
 					font-weight: 700;
 				}
 
@@ -2137,7 +2139,7 @@ input, select, textarea {
 	}
 
 		.dropotron a, .dropotron span {
-			color: #aaa;
+			color: #cccccc;
 			text-decoration: none;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
@@ -2150,7 +2152,7 @@ input, select, textarea {
 		}
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: #fff;
+				color: #cccccc;
 			}
 
 		.dropotron.level-0 {
@@ -2174,6 +2176,7 @@ input, select, textarea {
 
 	#banner {
 		background: #CCE8F4 url("../../images/pic01.jpg");
+		background-color: #485461;
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2191,14 +2194,14 @@ input, select, textarea {
 		}
 
 			#banner header h2 {
-				color: #fff;
+				color: #cccccc;
 				font-weight: 700;
 				font-size: 2.5em;
 				margin: 0 0 0.65em 0;
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #cccccc;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2210,6 +2213,7 @@ input, select, textarea {
 	#intro {
 		text-align: center;
 		overflow: hidden;
+
 	}
 
 		#intro section {
@@ -2266,7 +2270,9 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background-color: #485461;
+		background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+
 		padding: 4em 0 4em 0;
 	}
 
@@ -2290,7 +2296,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #cccccc;
 		padding: 4em 0;
 	}
 
@@ -2307,11 +2313,11 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: #cccccc;
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #fff;
+			color: #cccccc;
 		}
 
 			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
@@ -2599,7 +2605,7 @@ input, select, textarea {
 						height: 40px;
 						line-height: 40px;
 						font-size: 18px;
-						color: #fff;
+						color: #cccccc;
 						text-align: center;
 						background: rgba(150, 150, 150, 0.75);
 						border-radius: 5px;
@@ -2630,14 +2636,14 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				color: #858484;
+				color: #cccccc;
 				background-image: url("images/bg02.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
 				#navPanel .link {
 					display: block;
-					color: #888;
+					color: #cccccc;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
@@ -2676,7 +2682,7 @@ input, select, textarea {
 				}
 
 				#navPanel .depth-0 {
-					color: #fff;
+					color: #cccccc;
 				}
 
 			body.navPanel-visible #page-wrapper {
@@ -2849,7 +2855,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					color: #252122;
+					color: #cccccc;
 					font-weight: 900;
 					font-size: 1.75em;
 					letter-spacing: -0.035em;
