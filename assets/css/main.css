@@ -2121,7 +2121,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background:#04700c;
 					color: #cccccc !important;
 					font-weight: 700;
 				}
