@@ -103,8 +103,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #5d5d5d;
-		font-size: 14pt;
+		color: #cccccc;
+		font-size: 16pt;
 		line-height: 1.75em;
 	}
 
@@ -1573,7 +1573,7 @@ input, select, textarea {
 
 	.box {
 		background-color: #000000;
-		background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);	
+		background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);	
 		border-bottom: solid 1px #00e30f;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
@@ -2285,15 +2285,15 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			/*(background: url("images/bg01.png");*/
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
-		#main .major h2 {
+		/*#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
-		}
+		}*/
 
 /* Footer */
 
